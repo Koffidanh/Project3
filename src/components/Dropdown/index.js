@@ -12,9 +12,9 @@ const BurgerMenu = (props) => {
             <DropdownToggle className="dropdown-toggle" >
             </DropdownToggle>
             <DropdownMenu>
-                <DropdownItem href="/">Home</DropdownItem>
-                <DropdownItem href="/portfolio">Portfolio</DropdownItem>
-                <DropdownItem href="/contact">Contact</DropdownItem>
+                <DropdownItem href="/member">Home</DropdownItem>
+                <DropdownItem href="/">Login</DropdownItem>
+                <DropdownItem href="/signup">Signup</DropdownItem>
             </DropdownMenu>
         </Dropdown >
     );

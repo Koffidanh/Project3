@@ -44,7 +44,7 @@ cursor: pointer;
 
 export const NavMenu = styled.div`
 display: flex;
-align-items: center;
+align-items: right;
 margin-left: auto;
 margin-right: auto;
 
@@ -53,87 +53,31 @@ margin-right: auto;
 }
 `;
 
-// export const NavBtn = styled.nav`
-// display: flex;
-// align-items: center;
-// margin-right: 24px;
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+margin-right: 24px;
 
-// @media screen and(max-width: 768px) {
-//     display:none;
-// }
-// `
+ @media screen and(max-width: 768px) {
+    display:none;
+ }
+`;
 
-// export const NavBtnLink = styled.(Link)`
-// border-radius:4px
-// background: #256ce1;
-// padding: 10px 22px;
-// color: #fff;
-// border: none;
-// outline: none;
-// cursor: pointer;
-// transition: all 0.2s ease-in-out;
-// text-decoration: none;
+export const NavBtnLink = styled(Link)`
+border-radius:4px;
+background: #256ce1;
+padding: 10px 22px;
+color: #fff;
+border: none;
+outline: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
 
-// &:hover {
-//     transition: all 0.2s ease-in-out;
-//     background: #fff;
-//     color: #010606;
-// }
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+}
 
-// `
-
-// ============================================
-
-
-// function Navbar() {
-//     return (
-//         <div className="nav">
-
-//             <Link to="/"> Home</Link>
-
-//             <Link to="/portfolio"> Portfolio</Link>
-
-//             <Link to="/contact"> Contact</Link>
-
-//         </div>
-//     )
-// }
-
-// export default Navbar
-
-// ==================================================
-
-
-// import React, { useState } from 'react';
-// import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-
-// const BootstrapNav = (props) => {
-//     const [collapsed, setCollapsed] = useState(true);
-
-//     const toggleNavbar = () => setCollapsed(!collapsed);
-
-//     return (
-//         <div>
-//             <Navbar color="faded" light>
-//                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-//                 <Collapse isOpen={!collapsed} navbar>
-//                     <Nav navbar>
-//                         <NavItem>
-//                             <NavLink href="/">Home</NavLink>
-//                         </NavItem>
-//                         <NavItem>
-//                             <NavLink href="/login"> Portfolio</NavLink>
-//                         </NavItem>
-//                         <NavItem>
-//                             <NavLink href="/member"> Contact</NavLink>
-//                         </NavItem>
-//                     </Nav>
-//                 </Collapse>
-//             </Navbar>
-//         </div>
-//     );
-// }
-
-// export default BootstrapNav;
-
-
+`;

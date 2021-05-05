@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Container from "../../components/Container";
 import Card from "../../components/Card";
+import Navbar from "../../components/Navbar";
 
 
 function LoginPage() {
