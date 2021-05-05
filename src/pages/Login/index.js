@@ -3,15 +3,16 @@ import "./style.css";
 import Container from "../../components/Container";
 import Card from "../../components/Card";
 
-function HomePage() {
+
+function LoginPage() {
   return (
     <div>
       <Container style={{ marginTop: 30 }}>
-        <h1>Home</h1>
+        <h1>Login</h1>
         <Card />
       </Container>
-    </div >
+    </div>
   );
 }
 
-export default HomePage;
+export default LoginPage;

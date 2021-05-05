@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
 // import './App.css';
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
+import Member from "./pages/Member";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -12,10 +11,10 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/home" component={Home} exact />
-        <Route path="/portfolio" component={Portfolio} exact />
-        <Route path="/contact" component={Contact} exact />
+        <Route path="/" component={Login} exact />
+        <Route path="/login" component={Login} exact />
+        <Route path="/signup" component={Signup} />
+        <Route path="/member" component={Member} />
       </Switch>
     </Router >
   );

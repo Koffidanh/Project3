@@ -8,14 +8,14 @@ export const Navbar = () => {
             <Nav>
                 <BurgerMenu />
                 <NavMenu>
-                    <NavLink to="/" exact activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
-                        Home
+                    <NavLink to="/signup" exact activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
+                        Signup
                     </NavLink>
-                    <NavLink to="/portfolio" activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
-                        Portfolio
+                    <NavLink to="/login" activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
+                        Login
                     </NavLink>
-                    <NavLink to="/contact" activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
-                        Contact
+                    <NavLink to="/member" activeStyle={{ textDecoration: "none", color: "#3e81c9" }}>
+                        Member
                     </NavLink>
                 </NavMenu>
             </Nav>
