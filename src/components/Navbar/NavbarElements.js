@@ -44,7 +44,7 @@ cursor: pointer;
 
 export const NavMenu = styled.div`
 display: flex;
-align-items: right;
+align-items: center;
 margin-left: auto;
 margin-right: auto;
 
