@@ -1,4 +1,4 @@
-.dropdown-toggle
+.dropdown-icon
  { 
  height: 80px;
   width: 80px;
@@ -16,4 +16,8 @@
 .dropdown {
     display: block;
 }
+}
+
+.dropdown-icon:after {
+    display: none;
 }
